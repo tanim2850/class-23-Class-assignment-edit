@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1024px;
+    margin: auto;
+}
+
+/* heder-section */
+.heder-section {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heder-section .logo {
+}
+.heder-section .heder-logo img {
+    width: 100px;
+    padding: 15px;
+}
+.heder-manu {
+}
+.heder-manu ul {
+    display: flex;
+}
+.heder-manu ul li {
+	border-bottom: 1px solid white;
+	margin-left: 15px;
+	padding: 5px;
+}
+.heder-manu ul li a {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* banar-section */
+.banar {
+    display: flex;
+}
+.ex-div {
+    width: 80%;
+}
+.banar-top {
+    display: flex;
+    padding: 30px;
+    margin-top: 50px;
+}
+.banar-top .box-1 {
+    width: 32%;
+    height: 200px;
+    border: 1px solid green;
+    margin-left: 20px;
+}
+.banar-top .box-1 .items {
+    background: red;
+    display: flex;
+    height: 50px;
+    width: 80px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.banar-top .box-2 .items {
+    background: red;
+    display: flex;
+    height: 50px;
+    width: 80px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.banar-top .box-3 .items {
+    background: red;
+    display: flex;
+    height: 50px;
+    width: 80px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.items h4 {
+}
+.box-2 {
+    width: 32%;
+    height: 200px;
+    border: 1px solid green;
+    margin-left: 20px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.box-3 {
+    width: 32%;
+    height: 200px;
+    border: 1px solid green;
+    margin-left: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+/* right-side */
+.right-side {
+    width: 20%;
+    background-color: #d2d2d2;
+    margin-top: 40px;
+    border-left: 1px solid red;
+}
+.right-side h5 {
+	margin-left: 10px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	font-size: 21px;
+}
+.right-side img {
+    width: 150px;
+    margin-left: 10px;
+}
+.right-side p {
+    margin-left: 10px;
+}
+
+/* banar-center */
+.banar-center {
+}
+.ex-2 {
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+}
+.ex-2 .box1 {
+    height: 100px;
+    border: 1px solid red;
+    display: flex;
+    flex: 1;
+    margin-right: 10px;
+    padding: 20px;
+}
+.ex-2 .box2 {
+    height: 100px;
+    border: 1px solid red;
+    display: flex;
+    flex: 1;
+    flex-grow: 2;
+    margin: 0 10px;
+    padding: 20px;
+}
+.ex-2 .box3 {
+    height: 100px;
+    display: flex;
+    border: 1px solid red;
+    flex: 1;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+/* banar-bottom */
+.banar-bottom {
+	display: flex;
+	justify-content: space-evenly;
+}
+.banar-bottom .b-box-1 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 280px;
+	border: 1px solid red;
+    padding: 15px;
+}
+.b-box-1 .itmes {
+	background: red;
+    color: white;
+	width: 50px;
+	height: 30px;
+    border: 1px solid green;
+   
+}
+.two .items{}
+.tree {
+    justify-content: space-around;
+}
+.tm{
+   align-self:center; 
+}
+.tn{
+    align-self: end;
+}
+
+/* fotter-section */
+.fotter-section{
+    background-color: black;
+    padding: 20px 0;
+}
+.fotter-section ul{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.fotter-section ul li {
+	border-bottom: 1px solid#ddd;
+	margin-left: 60px;
+	padding: 10px;
+}
+.fotter-section ul li a {
+    color: white;
+    text-decoration: none;
+   
+}
